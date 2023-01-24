@@ -1,0 +1,4 @@
+push();
+pop();
+peek();    --> show top value without removing it
+display();   --> to TRAVERSE

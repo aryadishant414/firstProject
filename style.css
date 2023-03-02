@@ -1,0 +1,37 @@
+.flex-container
+{   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 4px solid black;
+    background-color: purple;
+    height: 66vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+ .flex
+{  background-color: rgb(82, 69, 82);
+   margin: 12px;
+    width: 120px;
+    height: 120px;
+    padding-left: 4px;
+} 
+
+.flex-item1
+{ 
+    order: 6;
+    align-self: center;
+    
+}
+
+.flex-item3
+{
+    order: 5;
+    
+}
+
+.flex-item2
+{
+   order: 8;
+}
